@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: var(--light-color);
+  font-weight: 700;
+  font-size: 1.1em;
+
+  .description {
+    line-height: 20px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+  }
+}
+
+.unifadra-logo {
+  margin: 0 100px 100px 0;
+  font-weight: 700;
+  font-size: 3.3em;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $dark-color;
+  }
+}
+
+.informations .row {
+  margin-bottom: 10px;
+}

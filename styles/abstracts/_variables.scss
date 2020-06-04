@@ -1,0 +1,36 @@
+/// Fonts
+/// @type List
+$text-font: 'Roboto', 'Open Sans', sans-serif !default;
+
+/// @type Color
+$light-color: #909090 !default;
+
+/// @type Color
+$dark-color: #27244f !default;
+
+/// Body background color
+/// @type Color
+$background-color: #d3d3d3 !default;
+
+/// @type Color
+$paper-color: #ffffff !default;
+
+/// Paper dots color
+/// @type Color
+$dot-color: #c7c4c4 !default;
+
+/// @type Color
+$yellow-color: #f7df71 !default;
+
+/// @type Color
+$selected-yellow-color: #fedd45 !default;
+
+/// Paper page maximum width
+/// @type Length
+$page-max-width: 980px !default;
+
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;

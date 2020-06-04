@@ -1,0 +1,10 @@
+*::selection {
+  background: $dark-color;
+  color: $paper-color;
+}
+
+a {
+  color: $light-color;
+  text-decoration: none;
+  outline: none;
+}
