@@ -1,0 +1,31 @@
+.topo {
+  width: 100%;
+}
+
+.title {
+  font-size: 5em;
+  color: $dark-color;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin: 100px 0;
+  color: $light-color;
+  font-size: 32px;
+  font-weight: 700;
+  max-width: 650px;
+}
+
+.painting {
+  width: 9em;
+  height: 9em;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    bottom: 50px;
+    right: 50px;
+  }
+}
