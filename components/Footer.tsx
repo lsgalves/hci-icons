@@ -18,7 +18,7 @@ const Footer: React.FC = () => (
       <div className="row">
         <div className="col">
           <a
-            href="https://github.com/LeonardoGalves/ihc-icons/"
+            href="https://github.com/LeonardoGalves/hci-icons/"
             target="_blank"
           >
             Código fonte no Github
@@ -30,7 +30,10 @@ const Footer: React.FC = () => (
       </div>
       <div className="row">
         <div className="col">
-          <a href="https://figma.com/" target="_blank">
+          <a
+            href="https://www.figma.com/file/wqMm5N5XmrAU2a2SW5TOUE/HCI-Icons"
+            target="_blank"
+          >
             Protótipo no Figma
           </a>
         </div>

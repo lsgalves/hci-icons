@@ -10,9 +10,17 @@ type Props = {
 
 const StaticPropsDetail = ({ item }: Props) => (
   <Layout title={`Ícone ${item?.name}`}>
-    <h2>{item?.name}</h2>
-    <img src={`/icons/${item?.image}`} alt={item?.name} />
-    <p>{item?.description}</p>
+    <div className="icon-wrapper">
+      <h2 className="icon-name">{item?.name}</h2>
+      <div className="icon-image-wrapper">
+        <img
+          className="icon-image"
+          src={`/icons/${item?.image}`}
+          alt={item?.name}
+        />
+      </div>
+      <p className="icon-description">{item?.description}</p>
+    </div>
   </Layout>
 )
 
