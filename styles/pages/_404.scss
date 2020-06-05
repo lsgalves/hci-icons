@@ -1,0 +1,16 @@
+.error-wrapper {
+  height: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-message {
+  text-align: center;
+  color: $dark-color;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 50px;
+}

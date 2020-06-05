@@ -5,10 +5,12 @@ import Layout from '../components/Layout'
 
 const NotFoundPage: React.FC = () => (
   <Layout title="Página não encontrada">
-    <h2>404: Página não encontrada.</h2>
-    <Link href="/">
-      <a>Volte para a Home</a>
-    </Link>
+    <div className="error-wrapper">
+      <p className="error-message">404: Página não encontrada.</p>
+      <Link href="/">
+        <a>Volte para a Home</a>
+      </Link>
+    </div>
   </Layout>
 )
 
