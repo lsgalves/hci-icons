@@ -10,11 +10,15 @@ type Props = {
 const PresentableIcon: React.FC<Props> = ({ data }) => (
   <Link href="/icons/[slug]" as={`/icons/${data.slug}`}>
     <a>
-      <div className="icon-container">
-        <div className="icon-wrapper">
-          <img className="icon" src={`/icons/${data.image}`} alt={data.name} />
+      <div className="display-icon-container">
+        <div className="display-icon-wrapper">
+          <img
+            className="display-icon"
+            src={`/icons/${data.image}`}
+            alt={data.name}
+          />
         </div>
-        <span className="icon-name">{data.name}</span>
+        <span className="display-icon-name">{data.name}</span>
       </div>
     </a>
   </Link>

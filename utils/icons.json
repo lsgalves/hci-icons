@@ -3,6 +3,60 @@
     "slug": "pencil",
     "name": "Lápis",
     "image": "pencil.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada."
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+  },
+  {
+    "slug": "profile",
+    "name": "Perfil",
+    "image": "profile.svg",
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+  },
+  {
+    "slug": "flask",
+    "name": "Frasco",
+    "image": "flask.svg",
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+  },
+  {
+    "slug": "notepad",
+    "name": "Prancheta",
+    "image": "notepad.svg",
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+  },
+  {
+    "slug": "pin",
+    "name": "Alfinente",
+    "image": "pin.svg",
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+  },
+  {
+    "slug": "earth",
+    "name": "Terra",
+    "image": "earth.svg",
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+  },
+  {
+    "slug": "notebook",
+    "name": "Caderno",
+    "image": "notebook.svg",
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+  },
+  {
+    "slug": "drop",
+    "name": "Gota",
+    "image": "drop.svg",
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+  },
+  {
+    "slug": "pendrive",
+    "name": "Pendrive",
+    "image": "pendrive.svg",
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+  },
+  {
+    "slug": "ruler",
+    "name": "Régua",
+    "image": "ruler.svg",
+    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
   }
 ]
