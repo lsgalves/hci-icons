@@ -9,54 +9,54 @@
     "slug": "profile",
     "name": "Perfil",
     "image": "profile.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+    "description": "O ícone de perfil é representado por um humano."
   },
   {
     "slug": "flask",
     "name": "Frasco",
     "image": "flask.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+    "description": "Frasco de líquidos, será que é seguro tomar?"
   },
   {
     "slug": "notepad",
     "name": "Prancheta",
     "image": "notepad.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+    "description": "Ícone de prancheta com \"check\" representando tarefas concluídas."
   },
   {
     "slug": "pin",
     "name": "Alfinente",
     "image": "pin.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+    "description": "Ícone de alfinete para pregar alguma coisa."
   },
   {
     "slug": "earth",
     "name": "Terra",
     "image": "earth.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+    "description": "O planeta terra, com os continentes traçados."
   },
   {
     "slug": "notebook",
     "name": "Caderno",
     "image": "notebook.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+    "description": "Caderno para anotações, de qual matéria seria?"
   },
   {
     "slug": "drop",
     "name": "Gota",
     "image": "drop.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+    "description": "Uma gota de água. Não deixe cair, vamos economizar."
   },
   {
     "slug": "pendrive",
     "name": "Pendrive",
     "image": "pendrive.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+    "description": "Ícone de pendrive, o que será que tem ai dentro?"
   },
   {
     "slug": "ruler",
     "name": "Régua",
     "image": "ruler.svg",
-    "description": "Um ícone de lápis, cuidado que a ponta está afiada, ele serve para escrever e desenhar."
+    "description": "Uma régua para medir coisas... mesmo não tendo numerações."
   }
 ]
