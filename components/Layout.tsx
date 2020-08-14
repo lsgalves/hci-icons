@@ -6,9 +6,10 @@ import Footer from './Footer'
 
 type Props = {
   title?: string
+  withBack?: boolean
 }
 
-const Layout: React.FC<Props> = ({ children, title = 'IHC Icons' }) => (
+const Layout: React.FC<Props> = ({ children, title = 'IHC Icons', withBack }) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -16,7 +17,7 @@ const Layout: React.FC<Props> = ({ children, title = 'IHC Icons' }) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <div className="layout-wrapper">
-      <PaperPage>
+      <PaperPage withBack={withBack}>
         {children}
         <Footer />
       </PaperPage>

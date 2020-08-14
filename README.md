@@ -21,7 +21,7 @@ $ npm install
 # Run develop mode
 $ npm run dev
 
-# or build project
+# or production mode
 $ npm run build && npm start
 ```
 
