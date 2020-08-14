@@ -9,7 +9,7 @@ type Props = {
 }
 
 const StaticPropsDetail = ({ item }: Props) => (
-  <Layout title={`Ícone ${item?.name}`}>
+  <Layout title={`Ícone ${item?.name}`} withBack={true}>
     <div className="icon-wrapper">
       <h2 className="icon-name">{item?.name}</h2>
       <div className="icon-image-wrapper">
