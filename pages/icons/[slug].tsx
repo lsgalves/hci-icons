@@ -8,7 +8,7 @@ type Props = {
   item?: Icon
 }
 
-const StaticPropsDetail = ({ item }: Props) => (
+const IconPage = ({ item }: Props) => (
   <Layout title={`Ícone ${item?.name}`} withBack={true}>
     <div className="icon-wrapper">
       <h2 className="icon-name">{item?.name}</h2>
@@ -24,7 +24,7 @@ const StaticPropsDetail = ({ item }: Props) => (
   </Layout>
 )
 
-export default StaticPropsDetail
+export default IconPage
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = icons.map(({ slug }) => ({

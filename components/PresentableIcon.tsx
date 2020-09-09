@@ -9,7 +9,7 @@ type Props = {
 
 const PresentableIcon: React.FC<Props> = ({ data }) => (
   <Link href="/icons/[slug]" as={`/icons/${data.slug}`}>
-    <a>
+    <a className="icon-wrapper">
       <div className="display-icon-container">
         <div className="display-icon-wrapper">
           <img

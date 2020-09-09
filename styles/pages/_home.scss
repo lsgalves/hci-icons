@@ -6,14 +6,40 @@
   font-size: 5em;
   color: $dark-color;
   font-weight: 700;
+
+  @include medium {
+    & {
+      font-size: 4em;
+    }
+  }
+
+  @include small {
+    & {
+      font-size: 3em;
+    }
+  }
 }
 
 .subtitle {
   margin: 100px 0;
   color: $light-color;
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 700;
   max-width: 650px;
+
+  @include medium {
+    & {
+      margin: 50px 0;
+      font-size: 1.8em;
+    }
+  }
+
+  @include small {
+    & {
+      margin: 20px 0;
+      font-size: 1.6em;
+    }
+  }
 }
 
 .painting {
@@ -27,5 +53,11 @@
   &:hover {
     bottom: 50px;
     right: 50px;
+  }
+
+  @include small {
+    & {
+      display: none;
+    }
   }
 }

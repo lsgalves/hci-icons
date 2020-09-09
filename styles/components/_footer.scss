@@ -10,6 +10,12 @@
     padding-top: 15px;
     margin-bottom: 40px;
   }
+
+  @include medium {
+    & {
+      flex-direction: column;
+    }
+  }
 }
 
 .unifadra-logo {
@@ -21,8 +27,33 @@
   &:hover {
     color: $dark-color;
   }
+
+  @include medium {
+    & {
+      margin: 0 0 40px 0;
+    }
+  }
+
+  @include small {
+    & {
+      margin: 0 0 20px 0;
+    }
+  }
 }
 
 .informations .row {
   margin-bottom: 10px;
+
+  @include small {
+    & {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    & .col {
+      margin: 5px 0;
+      justify-content: center;
+      display: flex;
+    }
+  }
 }

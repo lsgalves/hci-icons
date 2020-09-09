@@ -2,3 +2,15 @@ body {
   color: $light-color;
   font-family: $text-font;
 }
+
+@include medium {
+  body {
+    font-size: 14px;
+  }
+}
+
+@include small {
+  body {
+    font-size: 12px;
+  }
+}
